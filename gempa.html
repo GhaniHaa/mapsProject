@@ -53,10 +53,9 @@
 </style>
 
 <div id="map"></div>
-
 <div class="map-overlay top">
     <div class="map-overlay-inner">
-        <h2>Significant earthquakes in 2015</h2>
+        <h2>Data Gempa Bumi di Indonesia Tahun 2020</h2>
         <label id="month"></label>
         <input id="slider" type="range" min="0" max="11" step="1" value="0" />
     </div>
@@ -74,8 +73,8 @@
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/light-v10',
-        center: [31.4606, 20.7927],
-        zoom: 0.5
+        center: [ 119.58920302299165, -0.7176921969005982,],
+        zoom: 4
     });
 
     var months = [
